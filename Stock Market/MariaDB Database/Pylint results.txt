@@ -1,0 +1,24 @@
+Pylint
+
+pylint
+pylint --disable=C0303
+
+stocks_pl
+Default:
+7.76/10
+Disabled C0303: Trailing whitespace (trailing-whitespace):
+8.82/10
+
+
+stock_db_functions.py
+Default:
+7.93/10
+Disabled C0303: Trailing whitespace (trailing-whitespace):
+8.46/10
+
+
+stocks_clear_db.py
+Default:
+10/10
+Disabled C0303: Trailing whitespace (trailing-whitespace):
+10/10

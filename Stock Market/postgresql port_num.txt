@@ -1,0 +1,6 @@
+postgresql port: 5433
+pgBouncer liostening port 6432
+
+operating system username: postgres
+
+uXxrdap3udsn

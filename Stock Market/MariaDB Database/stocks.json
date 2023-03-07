@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "loggers": {
+        "root": {
+            "handlers": ["console"],
+            "level": "DEBUG"
+        },
+        "main": {
+            "handlers": ["console", "file"],
+            "level": "DEBUG",
+            "qualname": "main",
+            "propagate": 0
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "console"
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "level": "WARNING",
+            "formatter": "file",
+            "filename": "log_file_name",
+            "mode": "a"
+        }
+    },
+    "formatters": {
+        "console": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(filename)s - %(funcName)s - %(lineno)d - %(message)s"
+        },
+        "file": {
+            "format": "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s - %(message)s"
+        }
+    }
+}
