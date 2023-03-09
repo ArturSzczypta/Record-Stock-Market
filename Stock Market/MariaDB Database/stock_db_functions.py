@@ -450,3 +450,29 @@ def write_results (given_df, given_date):
     logger = logging.getLogger('write_results')
     logger.debug(f'Appending stocks results finished for {given_date=}')
     mycursor.close()
+
+def main():
+    ''' Performs basic logging set up, if script is runned directly'''
+    
+    #Get the database login credentials from environment variables
+    db_username = os.environ.get('MYSQL_USERNAME')
+    db_password = os.environ.get('MYSQL_PASSWORD')
+    db_name = os.environ.get('MYSQL_DB_NAME')
+    # Set the global variables in secondary.py using the returned values from get_db_credentials
+    get_db_credentials(db_username, db_password, db_name)
+
+    #Get this script name
+    log_file_name = __file__.split('\\')
+    log_file_name = f'{log_file_name[-1][:-3]}_log.log'
+
+    get_log_file_name(log_file_name)
+
+    #Configure logging file 
+    configure_logging()
+    logger = logging.getLogger('main')
+
+    #Check internet connection, terminate script if no internet
+    check_internet()
+
+if __name__ == '__main__':
+    main()
