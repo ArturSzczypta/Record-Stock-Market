@@ -12,13 +12,13 @@ China: SSE Composite Index (Shanghai Stock Exchange Composite Index) and Hang Se
 India: BSE Sensex (Bombay Stock Exchange Sensex) and Nifty 50 (National Stock Exchange Fifty)
 Additionally, you can consider sector-specific indexes that represent specific industries:
 
-IT Sector: NASDAQ Composite Index (United States) and STOXX Global 200 Technology Index (global)
+IT Sector: NASDAQ Composite Index (United States) and STOXX Global 200 Technology Index (global) https://finance.yahoo.com/quote/%5EIXIC/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAI8mjXSIUlq4mBxBkKPeHoS2gnUhEmfVNCZsOPQkkBjC9krZD_zisoyPx_lX4iDFen-7R2BBRhyMz0ap1Up53AjujzvoUrAcUE2prf9rioiolmucbzhJvsQERSvrwQ3FNFR2kcQcJtxN7QND7mpn9p784p6n1bf9Xzbj280hfuHM
 Banking Sector: KBW Bank Index (United States) and EURO STOXX Banks Index (Europe)
 Manufacturing Sector: S&P Global Industrials Index (global) and EURO STOXX Industrial Goods & Services Index (Europe)
 If you are interested in tracking raw material prices, you can scrape the following:
 
 Crude Oil: Brent Crude Oil Price or West Texas Intermediate (WTI) Crude Oil Price
-Iron Ore: Iron Ore 62% Fe CFR China Spot Price
+Iron Ore: Iron Ore 62% Fe CFR China Spot Price  https://www.investing.com/commodities/iron-ore-62-cfr-futures-historical-data
 Copper: Copper High Grade (COMEX) Futures Price
 Natural Gas: Henry Hub Natural Gas Spot Price
 '''
