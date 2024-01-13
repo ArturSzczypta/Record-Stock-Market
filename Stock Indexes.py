@@ -1,1 +1,0 @@
-'''Extracting Stock market indexes from Yahoo Finance'''

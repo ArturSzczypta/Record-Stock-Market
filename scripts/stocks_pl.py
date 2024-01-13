@@ -36,11 +36,11 @@ try:
     last_date = f.fetch_last_date()
     current_date = datetime.datetime(last_date.year, last_date.month,
                                      last_date.day) + delta
-except:
-    f.log_exception('last_date', ' - Cannot fetch date from database')
+except Exception as e:
+    f.log_exception(f'Cannot fetch date from database: {e}')
 '''
 I assume the end_date will be the date today. If not uncomment line below
-and comment the end_date = datetime.datetime(2023, 1, 1)
+and comment the end_date = datetime.datetime(2024, 2, 1)
 '''
 date_today = datetime.date.today()
 end_date = datetime.datetime(date_today.year, date_today.month, date_today.day)

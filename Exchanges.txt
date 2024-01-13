@@ -1,0 +1,20 @@
+Stock Exchanges
+1) New York Stock Exchange (NYSE), US
+ 2) NASDAQ, United States
+3) Shanghai Stock Exchange (SSE), China
+4) EURONEXT, Europe
+5) Japan Stock Exchange (JPX)
+6) Shenzhen Stock Exchange (SZSE), China
+7) Honk Kong Stock Exchange (SEHK)
+8) National Stock Exchange (NSE), India
+9) LSE Group, London
+10) Saudi Stock Exchange, Riyadh
+
+Comodity Exchanges
+1. New York Stock Exchangek
+2. NASDAQ
+3. Japan Exchange Group
+4. Shanghai Stock Exchange
+5. Hong Kong Stock Exchange
+6. Euronext
+7. London Stock Exchange Group
