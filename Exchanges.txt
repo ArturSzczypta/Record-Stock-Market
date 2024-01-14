@@ -1,6 +1,6 @@
 Stock Exchanges
 1) New York Stock Exchange (NYSE), US
- 2) NASDAQ, United States
+2) NASDAQ, United States
 3) Shanghai Stock Exchange (SSE), China
 4) EURONEXT, Europe
 5) Japan Stock Exchange (JPX)
@@ -18,3 +18,24 @@ Comodity Exchanges
 5. Hong Kong Stock Exchange
 6. Euronext
 7. London Stock Exchange Group
+
+Indexes:
+Germany: DAX Index (Deutscher Aktienindex) https://finance.yahoo.com/quote/DAX/history?period1=1420070400&period2=1684454400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+France: CAC 40 Index (Cotation Assistée en Continu) https://finance.yahoo.com/quote/%5EFCHI/history?period1=1420070400&period2=1684454400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+United Kingdom: FTSE 100 Index (Financial Times Stock Exchange 100 Index) -
+Europe: EURO STOXX 50 Index (representing the 50 largest companies in the Eurozone) https://finance.yahoo.com/quote/%5ESTOXX50E/history?period1=1420070400&period2=1691452800&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+United States: S&P 500 Index (Standard & Poor's 500 Index) and Dow Jones Industrial Average (DJIA) https://finance.yahoo.com/quote/%5EGSPC/history?period1=1420070400&period2=1684454400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+China: SSE Composite Index (Shanghai Stock Exchange Composite Index) and Hang Seng Index (Hong Kong)
+India: BSE Sensex (Bombay Stock Exchange Sensex) and Nifty 50 (National Stock Exchange Fifty)
+Additionally, you can consider sector-specific indexes that represent specific industries:
+
+IT Sector: NASDAQ Composite Index (United States) and STOXX Global 200 Technology Index (global) https://finance.yahoo.com/quote/%5EIXIC/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAI8mjXSIUlq4mBxBkKPeHoS2gnUhEmfVNCZsOPQkkBjC9krZD_zisoyPx_lX4iDFen-7R2BBRhyMz0ap1Up53AjujzvoUrAcUE2prf9rioiolmucbzhJvsQERSvrwQ3FNFR2kcQcJtxN7QND7mpn9p784p6n1bf9Xzbj280hfuHM
+Banking Sector: KBW Bank Index (United States) and EURO STOXX Banks Index (Europe)
+Manufacturing Sector: S&P Global Industrials Index (global) and EURO STOXX Industrial Goods & Services Index (Europe)
+If you are interested in tracking raw material prices, you can scrape the following:
+
+Crude Oil: Brent Crude Oil Price or West Texas Intermediate (WTI) Crude Oil Price
+Iron Ore: Iron Ore 62% Fe CFR China Spot Price  https://www.investing.com/commodities/iron-ore-62-cfr-futures-historical-data
+Copper: Copper High Grade (COMEX) Futures Price
+Natural Gas: Henry Hub Natural Gas Spot Price

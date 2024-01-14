@@ -1,0 +1,66 @@
+Comodities from Business Insider
+
+PRECIOUS METALS	UNIT
+Gold	USD per Troy Ounce
+https://markets.businessinsider.com/commodities/gold-price
+Palladium	USD per Troy Ounce
+https://markets.businessinsider.com/commodities/palladium-price
+Platinum	USD per Troy Ounce
+https://markets.businessinsider.com/commodities/platinum-price
+Silver	USD per Troy Ounce
+https://markets.businessinsider.com/commodities/silver-price
+
+
+ENERGY	UNIT
+Natural Gas (Henry Hub)	USD per MMBtu
+https://markets.businessinsider.com/commodities/natural-gas-price
+Ethanol	per Gallon
+https://markets.businessinsider.com/commodities/ethanol-price
+Heating Oil	USD per 100 Liter
+https://markets.businessinsider.com/commodities/heating-oil-price
+Coal	per Ton
+https://markets.businessinsider.com/commodities/coal-price
+RBOB Gasoline	per Gallone
+https://markets.businessinsider.com/commodities/rbob-gasoline
+Oil (Brent)
+https://markets.businessinsider.com/commodities/oil-price?type=brent
+Oil (WTI)
+https://markets.businessinsider.com/commodities/oil-price?type=wti
+
+
+INDUSTRIAL METALS	UNIT
+Aluminium	USD per Ton
+https://markets.businessinsider.com/commodities/aluminum-price
+Copper	USD per Ton
+https://markets.businessinsider.com/commodities/copper-price
+
+
+
+AGRICULTURE	UNIT
+Oats	USc per Bushel
+https://markets.businessinsider.com/commodities/oats-price
+Lumber	per 1.000 board feet
+https://markets.businessinsider.com/commodities/lumber-price
+Live Cattle	USD per lb.
+https://markets.businessinsider.com/commodities/live-cattle-price
+Lean Hog	USc per lb.
+https://markets.businessinsider.com/commodities/lean-hog-price
+Corn	USc per Bushel
+https://markets.businessinsider.com/commodities/corn-price
+Feeder Cattle	USc per lb.
+https://markets.businessinsider.com/commodities/feeder-cattle-price
+Milk	USD per cwt.sh.
+https://markets.businessinsider.com/commodities/milk-price
+Rapeseed	EUR per Ton
+https://markets.businessinsider.com/commodities/rapeseed-price
+Rice	per cwt.
+https://markets.businessinsider.com/commodities/rice-price
+Soybean Meal	USD per Ton
+https://markets.businessinsider.com/commodities/soybean-meal-price
+Soybeans	USc per Bushel
+https://markets.businessinsider.com/commodities/soybeans-price
+Soybean Oil	USD per lb.
+https://markets.businessinsider.com/commodities/soybean-oil-price
+Wheat	USc per Ton
+https://markets.businessinsider.com/commodities/wheat-price
+

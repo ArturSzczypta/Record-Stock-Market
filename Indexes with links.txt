@@ -1,21 +1,4 @@
-Poland
-Check Republic
-Ukraine
-Belarus
-Russia
-
-
-
-Shanghai Stock Exchange (SSE), China
-EURONEXT, Europe
-Japan Stock Exchange (JPX)
-Shenzhen Stock Exchange (SZSE), China
-Honk Kong Stock Exchange (SEHK)
-National Stock Exchange (NSE), India
-LSE Group, London
-Saudi Stock Exchange, Riyadh
-
-Warsaw Stock Exchange (GPW)
+Indexes:
 
 01/01/2015 - 14/01/2024:
 Poland
@@ -23,7 +6,6 @@ Poland
 
 
 
-01/01/2015 - 14/01/2024:
 Germany:
 Global X DAX Germany ETF (DAX)
 NasdaqGM - NasdaqGM Real Time Price. Currency in USD
@@ -113,16 +95,44 @@ Nasdaq GIDS - Nasdaq GIDS Real Time Price. Currency in USD
 https://finance.yahoo.com/quote/%5EIXF/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
 
 
+China
+SSE Composite Index (000001.SS)
+Shanghai - Shanghai Delayed Price. Currency in CNY
+https://finance.yahoo.com/quote/000001.SS/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+SSE 50 Index (000016.SS)
+Shanghai - Shanghai Delayed Price. Currency in CNY
+https://finance.yahoo.com/quote/000016.SS/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+SZSE A Share Index (399107.SZ)
+Shenzhen - Shenzhen Delayed Price. Currency in CNY
+https://finance.yahoo.com/quote/399107.SZ/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+SZSE B Share Index (399108.SZ)
+Shenzhen - Shenzhen Delayed Price. Currency in CNY
+https://finance.yahoo.com/quote/399108.SZ/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+HANG SENG INDEX (^HSI)
+HKSE - HKSE Delayed Price. Currency in HKD
+https://finance.yahoo.com/quote/%5EHSI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
 
 
+Japan
+Nikkei 225 (^N225)
+Osaka - Osaka Delayed Price. Currency in JPY
+https://finance.yahoo.com/quote/%5EN225/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
 
 
+India
+NIFTY 50 (^NSEI)
+NSE - NSE Real Time Price. Currency in INR
+https://finance.yahoo.com/quote/%5ENSEI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
 
+NIFTY MIDCAP 100 (NIFTY_MIDCAP_100.NS)
+NSE - NSE Real Time Price. Currency in INR
+https://finance.yahoo.com/quote/NIFTY_MIDCAP_100.NS/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
 
-
-
-
-
-
-
-
+Saudi Arabia:
+Tadawul All Shares Index (^TASI.SR)
+Saudi - Saudi Delayed Price. Currency in SAR
+https://finance.yahoo.com/quote/%5ETASI.SR/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
