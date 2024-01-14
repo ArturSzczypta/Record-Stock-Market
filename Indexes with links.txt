@@ -1,0 +1,128 @@
+Poland
+Check Republic
+Ukraine
+Belarus
+Russia
+
+
+
+Shanghai Stock Exchange (SSE), China
+EURONEXT, Europe
+Japan Stock Exchange (JPX)
+Shenzhen Stock Exchange (SZSE), China
+Honk Kong Stock Exchange (SEHK)
+National Stock Exchange (NSE), India
+LSE Group, London
+Saudi Stock Exchange, Riyadh
+
+Warsaw Stock Exchange (GPW)
+
+01/01/2015 - 14/01/2024:
+Poland
+
+
+
+
+01/01/2015 - 14/01/2024:
+Germany:
+Global X DAX Germany ETF (DAX)
+NasdaqGM - NasdaqGM Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/DAX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+MDAX PERFORMANCE-INDEX (^MDAXI)
+XETRA - XETRA Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5EMDAXI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+SDAX PERFORMANCEINDEX (^SDAXI)
+XETRA - XETRA Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5ESDAXI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+TECDAX TR (^TECDAX)
+XETRA - XETRA Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5ETECDAX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+
+France:
+CAC 40 (^FCHI)
+Paris - Paris Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5EFCHI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+SBF 120 (^SBF120)
+Paris - Paris Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5ESBF120/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+
+Eurozone:
+SPDR EURO STOXX 50 ETF (FEZ)
+NYSEArca - NYSEArca Delayed Price. Currency in USD
+https://finance.yahoo.com/quote/FEZ/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+iShares STOXX Europe 600 UCITS ETF (DE) (EXSA.DE)
+XETRA - XETRA Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/EXSA.DE/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+Euronext:
+AEX-Index (^AEX)
+Amsterdam - Amsterdam Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5EAEX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+BEL 20 (^BFX)
+Brussels - Brussels Delayed Price. Currency in EUR
+https://finance.yahoo.com/quote/%5EBFX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+USA
+Dow Jones Industrial Average (^DJI)
+DJI - DJI Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/%5EDJI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+Global X Dow 30 Covered Call ETF (DJIA)
+NYSEArca - NYSEArca Delayed Price. Currency in USD
+https://finance.yahoo.com/quote/%5EDJI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+S&P 500 (^GSPC)
+SNP - SNP Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/%5EGSPC/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+Russell 2000 (^RUT)
+Chicago Options - Chicago Options Delayed Price. Currency in USD
+https://finance.yahoo.com/quote/%5ERUT/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+NYSE COMPOSITE (DJ) (^NYA)
+NYSE - NYSE Delayed Price. Currency in USD
+https://finance.yahoo.com/quote/%5ENYA/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+USA- NASDAQ
+Fidelity Nasdaq Composite Index (FNCMX)
+Nasdaq - Nasdaq Delayed Price. Currency in USD
+https://finance.yahoo.com/quote/FNCMX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+NASDAQ 100 (^NDX)
+Nasdaq GIDS - Nasdaq GIDS Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/%5ENDX/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+NASDAQ Biotechnology (^NBI)
+Nasdaq GIDS - Nasdaq GIDS Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/%5ENBI/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+NASDAQ Financial 100 (^IXF)
+Nasdaq GIDS - Nasdaq GIDS Real Time Price. Currency in USD
+https://finance.yahoo.com/quote/%5EIXF/history?period1=1420070400&period2=1705190400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

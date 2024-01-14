@@ -4,10 +4,10 @@ import pandas as pd
 import datetime
 
 
-def create_table(conn, table_name):
+def create_table(conn, stock_exchange: str) -> None:
     '''Create table in database
     :conn: connector to database
-    :table_name: name of table in database'''
+    :stock_exchange: name of table in database'''
 
     # Check if table already exists
     mycursor = conn.cursor()
@@ -15,11 +15,11 @@ def create_table(conn, table_name):
     current_tables = set()
     for row in mycursor:
         current_tables.add(row[0])
-    if table_name not in current_tables:
+    if stock_exchange not in current_tables:
         try:
-            mycursor.execute("CREATE TABLE {table_name} "
-                             "(date_rec DATE NOT NULL PRIMARY KEY, "
-                             "currency VARCHAR(3),"
+            mycursor.execute("CREATE TABLE {stock_exchange} "
+                             "(date_rec DATE NOT NULL, "
+                             "currency VARCHAR(3), "
                              "price_openning FLOAT, "
                              "price_max FLOAT, "
                              "price_min FLOAT, "
@@ -28,10 +28,10 @@ def create_table(conn, table_name):
                              "traded_pieces INT, "
                              "number_transactions INT, "
                              "trading_value_in_1000 FLOAT);"
-                             .format(table_name=table_name))
+                             .format(stock_exchange=stock_exchange))
             conn.commit()
         except Exception as e:
-            print(f'Cannot create table {table_name}, {e}')
+            print(f'Cannot create table {stock_exchange}, {e}')
     mycursor.close()
 
 
