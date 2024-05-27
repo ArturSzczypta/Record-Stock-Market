@@ -29,10 +29,7 @@ def check_connection(client: psycopg2.connect) -> None:
 
 if __name__ == '__main__':
     '''Check connection to database'''
-    localhost = os.getenv('POSTGRESQL_LOCALHOST')
-    user = os.getenv('POSTGRESQL_USER')
-    password = os.getenv('POSTGRESQL_PASSWORD')
-    database = os.getenv('POSTGRESQL_DATABASE')
+    
 
     conn = postgresql_connector(host='localhost', user='postgres',
                                 password='postgres', database='postgres')

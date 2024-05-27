@@ -35,32 +35,25 @@ def create_table(conn, stock_exchange: str) -> None:
     mycursor.close()
 
 
-def write_to_db(db_connector, table_name: str, data: pd.DataFrame,
+def write_to_db(db_connector, table_name: str, data_frame: pd.data_frameFrame,
                 given_date: datetime) -> None:
-    '''Add new results to database
+    '''Add new results to table
     :db_connector: connector to database
-    :table_name: name of table in database
-    :data: pandas dataframe with stock results
+    :table_name: name of the table
+    :data_frame: pandas dataframe with stock results
     :given_date: date given by main script'''
 
-    # Return if no data
-    if not data:
-        return
-
     # Add date to dataframe
-    data.insert(1, 'date', given_date)
+    data_frame.insert(1, 'date', given_date)
 
-    for row in data.itertuples(index=False):
+    for row in data_frame.itertuples(index=False):
 
         # Prepare SQL querry
-        sql_string = '''INSERT INTO {0}
+        sql_string = f'''INSERT INTO {table_name}
         (date, currency, price_openning, price_max, price_min,
         price_closing, change_percent, traded_pieces, number_transactions,
-        trading_value_in_1000) VALUES ('{1}', {2}, {3}, {4}, {5}, {6},
-        {7}, {8}, {9}, {10}, {11})'''.format(table_name, row[0], row[1],
-                                             row[2], row[3], row[4], row[5],
-                                             row[6], row[7], row[8], row[9],
-                                             row[10])
+        trading_value_in_1000) VALUES ('{row[0]}', {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[5]},
+        {row[6]}, {row[7]}, {row[8]}, {row[9]}, {row[10]})'''
 
         # Append all stock tables
         try:
