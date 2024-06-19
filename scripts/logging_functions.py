@@ -1,25 +1,9 @@
-'''Logging functions for main script''''
+''''''
 
 import logging
 from logging import config
 import re
-
-
-def get_db_credentials(username, password, name):
-    '''
-    Get the database login credentials from main script
-    :username: enviroment username
-    :password: enviroment password
-    :name: enviroment name of database
-    '''
-    # Makes credentials global for all other functions
-    global DB_USERNAME
-    global DB_PASSWORD
-    global DB_NAME
-    DB_USERNAME = username
-    DB_PASSWORD = password
-    DB_NAME = name
-    print(type(DB_USERNAME), type(DB_PASSWORD), type(DB_NAME))
+import json
 
 
 # Get logging_file_name from main script

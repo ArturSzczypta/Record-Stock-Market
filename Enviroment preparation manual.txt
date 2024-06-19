@@ -1,0 +1,7 @@
+Database was created on an Ubuntu distribution. Run following commands in terminal
+
+For Ubuntu, use the following tutorial to prepare the database
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04
+
+Move PostgreSQL directory to new location
+https://www.digitalocean.com/community/tutorials/how-to-move-a-postgresql-data-directory-to-a-new-location-on-ubuntu-22-04

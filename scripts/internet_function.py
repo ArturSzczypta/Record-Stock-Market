@@ -1,4 +1,6 @@
+'''Check internet connection'''
 import requests
+import logging
 import logging
 
 def check_internet():
@@ -8,7 +10,6 @@ def check_internet():
     '''
     try:
         requests.head("http://www.google.com/", timeout=2)
-        # logger.debug('Internet connection active')
+        logging.debug('Internet connection active')
     except requests.ConnectionError:
-        logging.error(' - Cannot connect to internet')
-        
+        logging.critical('Cannot connect to the internet')

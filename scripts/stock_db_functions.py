@@ -34,7 +34,6 @@ def create_table(conn, stock_exchange: str) -> None:
             print(f'Cannot create table {stock_exchange}, {e}')
     mycursor.close()
 
-
 def write_to_db(db_connector, table_name: str, data_frame: pd.data_frameFrame,
                 given_date: datetime) -> None:
     '''Add new results to table
