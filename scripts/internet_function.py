@@ -13,3 +13,4 @@ def check_internet():
         logging.debug('Internet connection active')
     except requests.ConnectionError:
         logging.critical('Cannot connect to the internet')
+        

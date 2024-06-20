@@ -1,17 +1,17 @@
-''''functions for GPW - polish stock exchange'''
+''''functions for web scraping stock exchanges'''
 
 import datetime
 import logging
 import pandas as pd
 
-
+# GPW - polish stock exchange
 def get_pl_stock_results(given_date: datetime, attempts: int = 3) -> pd.DataFrame:
     '''Extract stock records from Polish GPW as pandas Dataframe
-    Between request I recomend using random sleep between 10 and 45 seconds'''
+    Between requests I recomend using random sleep between 10 and 45 seconds'''
 
     # Check if date in weekend
     if given_date.weekday() > 4:
-        logging.debug(f'No stock trades for {given_date} - PL stock is clodes during weekend')
+        logging.debug(f'No stock trades for {given_date} - PL stock is closed during weekend')
         return None
 
     # Convert date to string and create url
@@ -28,7 +28,7 @@ def get_pl_stock_results(given_date: datetime, attempts: int = 3) -> pd.DataFram
                     attempt: {attempt} of {attempts}''')
             break
         except ValueError:
-            logging.debug(f'''Failed to read HTML for date{given_date},
+            logging.debug(f'''Failed to read HTML for date {given_date},
                     attempt: {attempt} of {attempts}''')
             attempt += 1
     if stock_df:
