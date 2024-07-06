@@ -4,14 +4,27 @@ import datetime
 import logging
 import pandas as pd
 
-# GPW - polish stock exchange
-def get_pl_stock_results(given_date: datetime, attempts: int = 3) -> pd.DataFrame:
+
+def clean_dataframe_names(data_frame: pd.DataFrame) -> pd.DataFrame:
+    '''Clean dataframe names from unwanted characters'''
+
+    unwanted_characters = [' ', '.', '-', '(', ')', ',', '/', ';', ':', '?',
+                           '!', '\'', '"', '`', '~', '@', '#', '$', '%', '^',
+                           '&', '*', '+', '=', '<', '>', '{', '}']
+    for character in unwanted_characters:
+        data_frame['name'] = data_frame['name'].str.replace(character,
+                                                            '_', regex=True)
+    return data_frame
+
+# GPW - Polish stock exchange
+def get_pl_stock_results(given_date: datetime, attempts: int = 3)->pd.DataFrame:
     '''Extract stock records from Polish GPW as pandas Dataframe
     Between requests I recomend using random sleep between 10 and 45 seconds'''
 
     # Check if date in weekend
     if given_date.weekday() > 4:
-        logging.debug(f'No stock trades for {given_date} - PL stock is closed during weekend')
+        logging.debug(f'No stock trades for {given_date}'
+                      f' - Polish stock trade is closed during weekend')
         return None
 
     # Convert date to string and create url
@@ -39,13 +52,3 @@ def get_pl_stock_results(given_date: datetime, attempts: int = 3) -> pd.DataFram
     else:
         logging.error(f'No stock trades for {given_date}')
 
-
-def clean_dataframe_names(data_frame: pd.DataFrame) -> pd.DataFrame:
-    '''Clean dataframe names from unwanted characters'''
-
-    unwanted_characters = [' ', '.', '-', '(', ')', ',', '/', ';', ':', '?',
-                           '!', '\'', '"', '`', '~', '@', '#', '$', '%', '^',
-                           '&', '*', '+', '=', '<', '>', '{', '}']
-    for character in unwanted_characters:
-        data_frame['name'] = data_frame['name'].str.replace(character, '_', regex=True)
-    return data_frame

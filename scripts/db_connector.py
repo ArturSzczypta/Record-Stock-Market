@@ -42,7 +42,7 @@ if __name__ == '__main__':
     enviroment_loc = '../../.env.txt'
     pl_stocks = get_db_credentials(enviroment_loc, 'DB_STOCK_EXCHANGE_PL')
 
-    conn = db_connector(pl_stocks['host'], pl_stocks['user'], pl_stocks['password'],
-                        pl_stocks['db_name'])
+    conn = db_connector(pl_stocks['host'], pl_stocks['user'],
+                        pl_stocks['password'], pl_stocks['db_name'])
     check_db_connection(conn)
     conn.close()

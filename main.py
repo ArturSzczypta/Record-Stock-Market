@@ -7,9 +7,11 @@ import logging
 import pandas as pd
 from datetime import datetime
 from scripts import logging_functions as lf
+from scripts import internet_function as i_f
 
 
 load_dotenv('../.env')
+i_f.check_internet_connection()
 
 current_file_name = Path(__file__).stem
 log_file_name = f'{current_file_name}_log.log'

@@ -1,5 +1,4 @@
 ''' Configure logging with JSON file and custom logging file'''
-
 import logging
 from logging import config
 import json
