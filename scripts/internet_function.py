@@ -2,7 +2,7 @@
 import requests
 import logging
 
-def check_internet():
+def check_internet_connection():
     '''
     Check internet connection
     Loggs error if cannot connect to Google

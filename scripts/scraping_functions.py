@@ -1,4 +1,4 @@
-''''functions for web scraping stock exchanges'''
+''''functions for web scraping data'''
 
 import datetime
 import logging

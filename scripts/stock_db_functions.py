@@ -27,14 +27,14 @@ def missing_stock_tables(db_connector, data_frame: pd.DataFrame) -> set:
     mycursor.close()
     return missing_tables
 
-def add_missing_indexes(db_connector, data_frame: pd.DataFrame) -> None:
+def add_missing_indexes(db_connector, missing_indexes: dict) -> None:
     '''Add missing ISINs to the database'''
     mycursor = db_connector.cursor()
-    for index, row in data_frame.iterrows():
+    for key, values in missing_indexes.items():
         try:
             mycursor.execute(f'''INSERT INTO stock_indexes (name, code_isin,
-                             currency) VALUES ('{row['name']}',
-                             '{row['code_isin']}', '{row['currency']}');''')
+                             currency) VALUES ('{key}',
+                             '{values[0]}', '{values[1]}');''')
             db_connector.commit()
         except Exception as e:
             logging.error(f'Cannot add stock {row["name"]}'

@@ -27,13 +27,13 @@ def db_connector(host: str, user: str, password: str,
     return conn
 
 
-def check_db_connection(client: psycopg2.connect) -> None:
+def check_db_connection(conn: psycopg2.connect) -> None:
     ''' Check connection to database'''
     try:
-        client.admin.command('ping')
+        conn.admin.command('ping')
         logging.debug("You successfully connected to db")
     except Exception as e:
-        print(f'Connection to db failed: {e}')
+        logging.critical(f'Connection to db failed: {e}')
 
 
 if __name__ == '__main__':
